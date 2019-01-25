@@ -1,0 +1,15 @@
+﻿  main.cpp
+c:\users\liamw\desktop\parallel\mpi\mpi_sobel\mpi_sobel\pgmio.h(120): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\liamw\desktop\parallel\mpi\mpi_sobel\mpi_sobel\pgmio.h(159): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\liamw\desktop\parallel\mpi\mpi_sobel\mpi_sobel\pgmio.h(160): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\liamw\desktop\parallel\mpi\mpi_sobel\mpi_sobel\pgmio.h(164): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\liamw\desktop\parallel\mpi\mpi_sobel\mpi_sobel\pgmio.h(165): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\liamw\desktop\parallel\mpi\mpi_sobel\mpi_sobel\pgmio.h(168): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\liamw\desktop\parallel\mpi\mpi_sobel\mpi_sobel\pgmio.h(191): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\liamw\desktop\parallel\mpi\mpi_sobel\mpi_sobel\main.cpp(88): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\liamw\desktop\parallel\mpi\mpi_sobel\mpi_sobel\main.cpp(89): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\liamw\desktop\parallel\mpi\mpi_sobel\mpi_sobel\main.cpp(92): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\liamw\desktop\parallel\mpi\mpi_sobel\mpi_sobel\main.cpp(30): warning C4101: 'edge': unreferenced local variable
+c:\users\liamw\desktop\parallel\mpi\mpi_sobel\mpi_sobel\main.cpp(39): warning C4101: 'status': unreferenced local variable
+c:\users\liamw\desktop\parallel\mpi\mpi_sobel\mpi_sobel\main.cpp(30): warning C4101: 'old': unreferenced local variable
+  mpi_sobel.vcxproj -> C:\Users\liamw\Desktop\Parallel\MPI\mpi_sobel\Debug\mpi_sobel.exe

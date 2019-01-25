@@ -1,0 +1,24 @@
+﻿  
+  C:\Users\liamw\Desktop\Parallel\CUDA\Sobel\Sobel>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od  /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\liamw\Desktop\Parallel\CUDA\Sobel\Sobel\kernel.cu" -clean 
+  kernel.cu
+  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\liamw\Desktop\Parallel\CUDA\Sobel\Sobel>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\liamw\Desktop\Parallel\CUDA\Sobel\Sobel\kernel.cu" 
+c:\users\liamw\desktop\parallel\cuda\sobel\sobel\pgmio.h(42): warning : variable "cret" was set but never used
+c:\users\liamw\desktop\parallel\cuda\sobel\sobel\pgmio.h(43): warning : variable "iret" was set but never used
+c:\users\liamw\desktop\parallel\cuda\sobel\sobel\pgmio.h(81): warning : variable "cret" was set but never used
+c:\users\liamw\desktop\parallel\cuda\sobel\sobel\pgmio.h(82): warning : variable "iret" was set but never used
+C:/Users/liamw/Desktop/Parallel/CUDA/Sobel/Sobel/kernel.cu(154): warning : conversion from a string literal to "char *" is deprecated
+C:/Users/liamw/Desktop/Parallel/CUDA/Sobel/Sobel/kernel.cu(156): warning : conversion from a string literal to "char *" is deprecated
+C:/Users/liamw/Desktop/Parallel/CUDA/Sobel/Sobel/kernel.cu(161): warning : conversion from a string literal to "char *" is deprecated
+C:/Users/liamw/Desktop/Parallel/CUDA/Sobel/Sobel/kernel.cu(154): warning : conversion from a string literal to "char *" is deprecated
+C:/Users/liamw/Desktop/Parallel/CUDA/Sobel/Sobel/kernel.cu(156): warning : conversion from a string literal to "char *" is deprecated
+C:/Users/liamw/Desktop/Parallel/CUDA/Sobel/Sobel/kernel.cu(161): warning : conversion from a string literal to "char *" is deprecated
+  kernel.cu
+c:\users\liamw\desktop\parallel\cuda\sobel\sobel\pgmio.h(120): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\liamw\desktop\parallel\cuda\sobel\sobel\pgmio.h(164): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\liamw\desktop\parallel\cuda\sobel\sobel\pgmio.h(229): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\liamw\desktop\parallel\cuda\sobel\sobel\pgmio.h(233): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     Creating library C:\Users\liamw\Desktop\Parallel\CUDA\Sobel\x64\Debug\Sobel.lib and object C:\Users\liamw\Desktop\Parallel\CUDA\Sobel\x64\Debug\Sobel.exp
+  Sobel.vcxproj -> C:\Users\liamw\Desktop\Parallel\CUDA\Sobel\x64\Debug\Sobel.exe
+  Sobel.vcxproj -> C:\Users\liamw\Desktop\Parallel\CUDA\Sobel\x64\Debug\Sobel.pdb (Full PDB)
